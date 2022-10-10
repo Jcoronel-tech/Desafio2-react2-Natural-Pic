@@ -1,11 +1,13 @@
-import Galeria from "../components/Galeria";
+import React from 'react'
+import pika from '../assets/img/pikachu-home.png'
 
-export default function Home() {
+const Home = () => {
   return (
-    <div id="Home">
-      <h1>Natural Pic</h1>
-
-      <Galeria />
+    <div className='m-5'>
+      <h1 className='p-5'>¡Bienvenido maestro!</h1>
+      <img src={pika} alt='pika'/>
     </div>
-  );
+  )
 }
+
+export default Home

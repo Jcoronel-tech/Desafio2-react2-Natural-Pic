@@ -5,9 +5,13 @@ body {
 .App {
   font-family: "Maitree", serif;
   text-align: center;
-  color: #43a047;
+  color: #202020;
 }
 
 h1 {
   margin-bottom: 0;
 }
+.active {
+  color: darkred;
+  }
+    
